@@ -11,33 +11,46 @@ header {
   color: #333;
   text-align: center;
 }
+h3 {
+  color: #644848;
+}
 .content {
   margin-top: 10px;
 }
 .mail {
   margin-top: 20px;
+  color: #644848;
 }
 h1 {
   text-align: center;
-  color: #333;
+  color: #644848;
+}
+p {
+  margin-top: 10px;
 }
 .list {
   margin-top: 10px;
   color: #333;
 }
+ol {
+  margin-top: 10px;
+}
+strong,
+li {
+  color: #644848;
+}
 #time {
   text-align: center;
-  color: #333;
+  color: #644848;
 }
 .learn {
-  color: #333;
   text-align: center;
+  color: #644848;
 }
 a {
   text-decoration: none;
   color: #333;
 }
-
 main {
   align-items: center;
   padding: 20px;
@@ -45,6 +58,18 @@ main {
 section {
   padding: 20px;
   margin: 20px;
+}
+footer,
+#copy,
+#mail,
+#bio {
+  background-color: #2c2c2c;
+  text-align: center;
+  color: bisque;
+}
+#copy {
+  margin-top: 10px;
+  color: bisque;
 }
 @media (max-width: 768px) {
   .container {
